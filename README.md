@@ -2,6 +2,8 @@
 
 A unfinished game project from school (2017)
 
+![Gameplay screenshot](/screenshot.png "Gameplay screenshot")
+
 ## Usage
 
 You can download and run the game using the nix package manager
