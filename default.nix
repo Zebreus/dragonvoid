@@ -13,7 +13,7 @@ pkgs.stdenv.mkDerivation {
     cp $src/DragonVoid.jar $out/lib
 
     cat <<EOF > $out/bin/dragonvoid
-    #/usr/bin/env sh
+    #!/usr/bin/env bash
 
     # The saves are stored inside the resource directory.
     # We copy the resources to a temporary directory and link to a saves directory in your home folder
@@ -32,7 +32,7 @@ pkgs.stdenv.mkDerivation {
     EOF
 
     cat <<EOF > $out/bin/dragonvoid-arena
-    #/usr/bin/env sh
+    #!/usr/bin/env bash
 
     # The saves are stored inside the resource directory.
     # We copy the resources to a temporary directory and link to a saves directory in your home folder
